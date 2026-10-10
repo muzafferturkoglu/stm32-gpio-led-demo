@@ -30,7 +30,7 @@
         {
             "type": "shell",
             "label": "Program Memory",
-            "command": "openocd.exe -f interface/stlink.cfg -f target/stm32f1x.cfg -c \"program build/${workspaceRootFolderName}.elf verify reset exit\"",
+            "command": "openocd.exe -f interface/stlink.cfg -f target/stm32f1x.cfg -c \"program build/Blink.elf verify reset exit\"",
             "args": [
             ],
             "options": {

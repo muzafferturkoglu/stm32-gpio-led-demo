@@ -6,7 +6,7 @@
             "type": "cppdbg",
             "request": "launch",
             "cwd": "${workspaceRoot}",
-            "program": "${workspaceRoot}/build/${workspaceRootFolderName}.elf",
+            "program": "${workspaceRoot}/build/Blink.elf",
             "args": [],
             "MIMode": "gdb",
             "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb-multiarch.exe",
@@ -19,7 +19,7 @@
             ],
             "postRemoteConnectCommands": [
                 {
-                    "text": "file build/${workspaceRootFolderName}.elf",
+                    "text": "file build/Blink.elf",
                     "ignoreFailures": false
                 },
                 {
